@@ -2,7 +2,7 @@
 
 Soliton Portable is an unofficial fan application. Metal Gear Solid and its original audio are owned by Konami and their respective rightsholders.
 
-Short MGS1 effects were obtained from the public Myinstants clips referenced by Daniel Herzog's [Metal Gear Solid soundboard](https://github.com/wikiti/metal-gear-solid-soundboard). That reference was used as an asset index; its application code was not copied. Exact URLs and SHA256 hashes are in `assets/sounds/provenance.json`.
+Short MGS1 effects were obtained from the public Myinstants clips referenced by Daniel Herzog's [Metal Gear Solid soundboard](https://github.com/wikiti/metal-gear-solid-soundboard). That reference was used as an asset index; its application code was not copied.
 
 Menu clips:
 
@@ -14,7 +14,7 @@ Interface designed in pen.dev. The application-window radar icon is from Lucide 
 
 Electron and bundled Chromium/Node components retain their upstream licenses in the portable folder (`LICENSE`, `LICENSES.chromium.html`).
 
-The MGS1-style HUD, Codec and Ammo fonts are Andrew Gleeson's [MGS1 fonts](https://gleeson.itch.io/mgs1-fonts), distributed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Unmodified copies were obtained from the public [Roomshift font assets](https://github.com/Jenil005/roomshift/tree/913ef5017f831e68e1d98ba43f0a6794d7d279d5/frontend/src/assets/fonts). Font hashes are recorded in `assets/visual-provenance.json`.
+The MGS1-style HUD, Codec and Ammo fonts are Andrew Gleeson's [MGS1 fonts](https://gleeson.itch.io/mgs1-fonts), distributed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Unmodified copies were obtained from the public [Roomshift font assets](https://github.com/Jenil005/roomshift/tree/913ef5017f831e68e1d98ba43f0a6794d7d279d5/frontend/src/assets/fonts).
 
 RATION, SOCOM and the GAME OVER art are original MGS1 imagery reused from the companion personal device theme. Campbell and Snake portraits were obtained from the [FoxhoundAI codec assets](https://github.com/SlickAmogus/FoxhoundAI/tree/master/SnakeAI/Content/codex). The radar surface texture is a crop of an MGS1 radar reference. The [official MGS1 manual](https://metalgear.konami.net/manual/mc1/mgs1/pc/en/page08.html) was used as a visual reference.
 
