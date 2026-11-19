@@ -2,7 +2,19 @@
 
 Watch Snake sneak through a different facility each run. He slips through vents, grabs keycards and tries to reach the exit before the patrols catch him. Soliton is a small, autonomous stealth game inspired by the radar in *Metal Gear Solid*.
 
-**[Download for Windows x64](https://github.com/Phobiastrike/Soliton/releases/latest)** · Extract the whole ZIP and run **Soliton.exe**. The game runs offline and saves your record beside the executable. You can pause with **Space**, mute with **M**, or open the options with **Esc**.
+## Download
+
+| Platform | Download | Start the game |
+| --- | --- | --- |
+| Windows x64 | [ZIP](https://github.com/Phobiastrike/Soliton/releases/download/v1.0.7/Soliton-Portable-1.0.7-Windows-x64.zip) | Extract the whole folder and open **Soliton.exe**. |
+| Mac with Apple silicon (M-series) | [macOS ARM64 ZIP](https://github.com/Phobiastrike/Soliton/releases/download/v1.0.7/Soliton-1.0.7-macOS-arm64.zip) | Extract the ZIP, move **Soliton.app** to Applications and open it. |
+| Mac with Intel processor | [macOS Intel ZIP](https://github.com/Phobiastrike/Soliton/releases/download/v1.0.7/Soliton-1.0.7-macOS-x64.zip) | Extract the ZIP, move **Soliton.app** to Applications and open it. |
+| Ubuntu / Debian x64 | [Debian package](https://github.com/Phobiastrike/Soliton/releases/download/v1.0.7/Soliton-1.0.7-Linux-amd64.deb) | In the download folder run `sudo apt install ./Soliton-1.0.7-Linux-amd64.deb`, then open **Soliton** from the applications menu. |
+| Other desktop Linux x64 | [tar.gz](https://github.com/Phobiastrike/Soliton/releases/download/v1.0.7/Soliton-1.0.7-Linux-x64.tar.gz) | Extract the archive and run `./Soliton/soliton`. Requires desktop libraries and a working Chromium sandbox. |
+
+The Mac builds require macOS 13 or later. They are ad-hoc signed and have no Apple notarization. macOS may ask for approval on first launch. [Apple's guide to opening downloaded apps](https://support.apple.com/en-us/102445)
+
+Soliton runs offline. Windows stores progress in `data/state.json` beside the executable. macOS uses `~/Library/Application Support/Soliton/state.json`. Linux uses `$XDG_CONFIG_HOME/Soliton/state.json`, normally `~/.config/Soliton/state.json`. Press **Space** to pause, **M** to mute or **Esc** for options.
 
 ![Snake on the infiltration radar with one of two keycards collected](https://github.com/Phobiastrike/Soliton/releases/download/v1.0.7/infiltration-keycards.png)
 
